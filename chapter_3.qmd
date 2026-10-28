@@ -100,7 +100,7 @@ $$
 :::
 
 ::: remark
-לכל $m,n\in\mathbb{N}$ מתקיים $\mathbb{M}_{m\times n}(\mathbb{R})\subseteq \mathbb{M}_{m\times n}(\mathbb{C})$ כי $\mathbb{R}\subseteq\mathbb{C}$. אז למעשה כל המטריצות בקורס הן מעל $\mathbb{C}$, אבל אם לדייק רובן (לא כולן) יהיו מעל $\mathbb{R}$. השימוש בסימון $\mathbb{F}$ נועד לרוב הטענות, שנכונות גם מעל $\mathbb{R}$ וגם מעל $\mathbb{C}$. באלגברה לינארית אפשר לעסוק גם בקבוצות מספרים נוספות שנקראות שדות (fields), ומכאן הסיבה לאות $\mathbb{F}$. אבל בקורס שלנו נסתפק ב- $\mathbb{R},\mathbb{C}$ (השדות החשובים ביותר).
+לכל $m,n\in\mathbb{N}$ מתקיים $\mathbb{M}_{m\times n}(\mathbb{R})\subseteq \mathbb{M}_{m\times n}(\mathbb{C})$ כי $\mathbb{R}\subseteq\mathbb{C}$. אז למעשה כל המטריצות בקורס הן מעל $\mathbb{C}$, אבל אם לדייק רובן (לא כולן) יהיו מעל $\mathbb{R}$. השימוש בסימון $\mathbb{F}$ נועד לרוב הטענות, שנכונות גם מעל $\mathbb{R}$ וגם מעל $\mathbb{C}$.
 :::
 
 ## פעולות על מטריצות
