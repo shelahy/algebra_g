@@ -1065,17 +1065,16 @@ $$A^0=I_n, \quad A^1=A, \quad A^2=A\cdot A, \quad A^3=A\cdot A\cdot A$$
 
 $$.A^k = \underbrace{A \cdot A \cdot \ldots \cdot A}_{\text{פעמים}\, k}$$
 
-עבור פולינום $$p(x)=a_mx^m+a_{m-1}x^{m-1}+...+a_1x+a_0$$ נגדיר את ההצבה של $A$ בו ע\"י $$.p(A)=a_mA^m+a_{m-1}A^{m-1}+...+a_1A+a_0I_n$$
 :::
 
 ::: example
-נחשב את $p(A)$ עבור $$A=\begin{pmatrix}
+נחשב חזקות של
+ $$.A=\begin{pmatrix}
 1 &2 \\
 0 &-1
-\end{pmatrix}$$ והפולינום $$.p(x)=x^3+2x^2+x+1$$
+\end{pmatrix}$$
 
-לצורך כך צריך לחשב את החזקות $A^3, A^2$:
-
+קודם נחשב את $A^2$:
 $$\begin{aligned}
 A^2&=\begin{pmatrix}
 1 &2 \\
@@ -1086,20 +1085,18 @@ A^2&=\begin{pmatrix}
 \end{pmatrix}=\begin{pmatrix}
 1 &0 \\
 0 &1
-\end{pmatrix}=I_2\\
-\implies A^3&=A^2\cdot A=I_2 A=A \\
-\implies p(A)&=A^3+2A^2+A+I_2=2A+3I_2=2\begin{pmatrix}
-1 &2 \\
-0 &-1
-\end{pmatrix}+3\begin{pmatrix}
-1 &0 \\
-0 &1
-\end{pmatrix} \\
-&=\begin{pmatrix}
-5 &4 \\
-0 &1
-\end{pmatrix}
-\end{aligned}$$
+\end{pmatrix}=I_2$$
+
+מאחר שהתקבלה מטריצת היחידה, המשך החישוב פשוט:
+$$
+\begin{aligned}
+A^3&=A^2\cdot A=I_2\cdot A=A &\implies A^4=A^3\cdot A=A\cdot A=A^2=I_2 \\
+&\implies A^5=A^4\cdot A=I_2\cdot A=A
+$$
+
+וכן הלאה, כאשר מתקיים חוק מחזוריות
+$$A^{2k}=I_2, \quad A^{2k+1}=A$$
+ לכל $k\in\mathbb{N}$.
 :::
 
 ::: remark
